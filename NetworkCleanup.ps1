@@ -2,6 +2,8 @@
 Author: KZ 7/5/2025
 #>
 
+Get-NetAdapter | Select-Object Name, Status, InterfaceDescription, InterfaceGuid | Format-Table
+
 Add-Type -AssemblyName Microsoft.VisualBasic
 
 # Prompt for GUIDs
