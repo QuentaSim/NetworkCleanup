@@ -1,5 +1,5 @@
 <#
-Script Property of KZ 7/5/2025
+Author: KZ 7/5/2025
 #>
 
 Add-Type -AssemblyName Microsoft.VisualBasic
